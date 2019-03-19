@@ -7,8 +7,8 @@ import org.springframework.web.util.UriComponents;
 import org.springframework.web.util.UriComponentsBuilder;
 import pl.com.bottega.qmanager.finder.QDocReadModel;
 import pl.com.bottega.qmanager.finder.QDocFinder;
-import pl.com.bottega.qmanager.preparation.CreateQDocCommand;
-import pl.com.bottega.qmanager.preparation.PreparationService;
+import pl.com.bottega.qmanager.preparation.domain.consumes.CreateQDocCommand;
+import pl.com.bottega.qmanager.preparation.domain.PreparationService;
 
 @RestController
 @AllArgsConstructor

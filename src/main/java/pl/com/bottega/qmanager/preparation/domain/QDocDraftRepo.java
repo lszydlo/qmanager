@@ -1,4 +1,4 @@
-package pl.com.bottega.qmanager.preparation;
+package pl.com.bottega.qmanager.preparation.domain;
 
 import org.springframework.stereotype.Repository;
 
