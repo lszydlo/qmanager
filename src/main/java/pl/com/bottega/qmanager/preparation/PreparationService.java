@@ -1,8 +1,10 @@
 package pl.com.bottega.qmanager.preparation;
 
 import lombok.AllArgsConstructor;
+import org.springframework.stereotype.Service;
 
 @AllArgsConstructor
+@Service
 public class PreparationService {
 
 
