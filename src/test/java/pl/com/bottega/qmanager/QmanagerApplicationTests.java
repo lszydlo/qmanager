@@ -11,6 +11,7 @@ public class QmanagerApplicationTests {
 
 	@Test
 	public void contextLoads() {
+
 	}
 
 }

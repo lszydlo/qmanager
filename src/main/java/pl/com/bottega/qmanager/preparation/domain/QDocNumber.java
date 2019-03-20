@@ -16,4 +16,8 @@ class QDocNumber {
 			throw new RuntimeException();
 		}
 	}
+
+	public String value() {
+		return value;
+	}
 }
