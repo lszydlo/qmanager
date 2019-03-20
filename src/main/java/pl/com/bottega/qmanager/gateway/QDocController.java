@@ -10,6 +10,8 @@ import pl.com.bottega.qmanager.finder.QDocFinder;
 import pl.com.bottega.qmanager.preparation.domain.consumes.CreateQDocCommand;
 import pl.com.bottega.qmanager.preparation.domain.PreparationService;
 
+import java.util.List;
+
 @RestController
 @AllArgsConstructor
 public class QDocController {
@@ -25,8 +27,8 @@ public class QDocController {
 	}
 
 	@GetMapping("/qdocs/{id}")
-	public QDocReadModel get(@PathVariable String id) {
-		return finder.getQDocDraft();
+	public List<QDocReadModel> get(@PathVariable String id) {
+		return finder.find("");
 	}
 
 
